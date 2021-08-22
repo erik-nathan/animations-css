@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Menu Bar Bicrointeractions</title>
+</head>
+<body>
+    <div class="menu-bar">
+        <div class="tabs">
+           <input type="radio" id="radio-1" name="tabs" checked/>
+          <label for="radio-1"><i data-feather="home"></i></label> 
+        
+          <input type="radio" id="radio-2" name="tabs"/>
+          <label id="award" for="radio-2"><i data-feather="award"></i></label> 
+        
+          <input type="radio" id="radio-3" name="tabs"/>
+          <label id="briefcase"  for="radio-3"><i data-feather="briefcase"></i></label> 
+        
+          <input type="radio" id="radio-4" name="tabs"/>
+          <label id="book-open" for="radio-4"><i data-feather="book-open"></i></label> 
+         
+          <span class="selected-element">
+            <span class="circle"></span>
+          </span>
+        </div>
+    </div>      
+
+    <script>feather.replace()</script>
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
+</body>
+</html>
